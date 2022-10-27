@@ -5,18 +5,20 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>
       
-        <img src="/../assets/images/IRSI.png"  style=" max-width: 90%; ">
+        <img src="/../assets/images/IRSI.png"  style=" max-width: 80%; margin-right: auto; margin-left: auto; ">
       
     </mat-toolbar>
-    <mat-nav-list>
-      <p style="margin-left: 20px;">Contenido</p>
-      <a mat-list-item href="#">Inicio</a>
-      <a mat-list-item href="#">SOC</a>
-      <a mat-list-item href="#">Respuesta a incidentes</a>
-      <a mat-list-item href="#">Threat Hunting</a>
-      <a mat-list-item href="#">Forence</a>
+    <mat-nav-list >
+      <p style="text-align: center;">Contenido</p>
+      
+      <a mat-list-item href="../componenetes/soc/soc.component.html"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon> Inicio</a>
+      <a mat-list-item href="#"><mat-icon>bookmark</mat-icon> SOC</a>
+      <a mat-list-item href="#"><mat-icon>bookmark</mat-icon> Respuesta a incidentes</a>
+      <a mat-list-item href="#"><mat-icon>bookmark</mat-icon> Threat Hunting</a>
+      <a mat-list-item href="#"><mat-icon>bookmark</mat-icon> Forence</a>
     </mat-nav-list>
   </mat-sidenav>
+
   <mat-sidenav-content>
     <mat-toolbar>
       <div style="display:flex; justify-content: space-between;">
@@ -47,5 +49,6 @@
     </mat-toolbar>
     <!-- Add Content Here -->
     <app-dashboard></app-dashboard>
+
   </mat-sidenav-content>
 </mat-sidenav-container>

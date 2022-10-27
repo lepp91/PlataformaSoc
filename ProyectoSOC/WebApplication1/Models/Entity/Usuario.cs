@@ -22,7 +22,6 @@ namespace ProyectoSOC.Models.Entity
         [DataType(DataType.DateTime)]
         public DateTime UsuarioFechaCreacion { get; set; }
         public DateTime UsuarioFechaModificacion { get; set; }
-        public string UsuarioUsuarioId { get; set; }
         public bool UsuarioEstado { get; set; }
     }
 }

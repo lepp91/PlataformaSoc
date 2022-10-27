@@ -3,7 +3,8 @@
 }
 
 .sidenav {
-  width: 200px;
+  width: 250px;
+  background-color: rgb(55, 55, 172); 
 }
 
 .sidenav .mat-toolbar {
@@ -18,7 +19,7 @@
 .mat-toolbar {
   background: white;
   color: blue;
-  height: 60px;
+  height: 75px;
   box-shadow: 3px 3px 3px #bdb9b9af;
 }
 .mat-toolbar.mat-primary {
@@ -26,4 +27,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.mat-icon{
+  margin-right: 5px;
 }
